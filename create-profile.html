@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Humber College: Create Student Profile</title>
+        <meta charset="utf-8">
+        <meta name= "description" content="Create Profile">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <!--Logo begin-->
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/HumberIcon.png" alt="HumberCollegeLogo">
+            </a>
+            <img src="img/datatech.jpg" alt="program">
+        </div>
+        <!--Logo close-->
+            <!--Navigation-->
+            <div>
+                <nav class="menu">
+                    <table cellspacing="4" cellpadding="4">
+                      <td><a href="index.html">Home</a></td>
+                      <td><strong><a href="create-profile.html">Student Profile</a></strong></td>
+                      <td><a href="view-performance.html">Student Academic Records</a></td>
+                
+                    </table>
+                  </nav>
+            </div>
+        <!--Create your own profile-->
+        <div class="main1">
+            <h1>Create Student Profile</h1>
+            <img src="img/Student.png" height="247" width="300" border="4" alt="student">
+            <h4>What is Student Profile?</h4>
+            <p>The Student Profile is an opportunity for you to tell us more about yourselves, your extracurricular interests and involvement as well as your academic goals and aspirations.</p>
+            <h3>Instructions</h3>
+            <p>Key in your Full legal name.</p>
+        </div>
+        <div>
+             <form actions="form.php">
+                First Name:
+                <input type="text" name="First Name" value="First Name">
+                Preferred Name:
+                <input type="text" name="Preferred Name" value="Preferred Name">
+                Middle Name:
+                <input type="text" name="Middle Name" value="Middle Name">
+                Last Name:
+                <input type="text" name="Last Name" value="Last Name">
+                <br>
+                Date of Birth:
+                <input type="date">
+                <br>
+                E-mail:
+                <input type="text" name="E-mail" value="email@humbermail.ca">
+                <br> 
+                <label>Current Year of Enrollment:</label>
+                <select id = "myList">
+                    <option value= "Blank"></option>
+                    <option value = "Year 1"> Year 1</option>
+                    <option value = "Year 2"> Year 2</option>
+                    <option value = "Year 3"> Year 3</option>
+                    <option value = "Year 4"> Year 4</option>
+                </select>
+                <br>
+                <label>What type of computer do you prefer?</label>
+                <select id="preference">
+                    <option value="Blank"></option>
+                    <option value = "Mac"> Mac </option>
+                    <option value ="PC"> PC</option>
+                </select>
+                <br>
+                Briefly describe yourself:
+                <br>
+                    <textarea></textarea>
+            </form>
+        </div>
+        <div>
+            <p><h3>To Apply for Scholarships/Grants, click the following link: <a href="scholarships.html">Scholarships and Grants</a></h3></p>
+            <p><h3>To Check if your Eligiblie for Bursaries or Loans, click the the following link:<a href="bursariesandloans.html">Bursaries and Loans</a></h3></p>    
+        </div>
